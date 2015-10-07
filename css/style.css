@@ -1,3 +1,67 @@
+
+/* post thumbnails */ 
+
+.post
+{
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 0 0 1px #CCC;
+}
+.post img
+{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+}
+.post .content
+{
+    padding: 15px;
+}
+.post .author
+{
+    font-size: 11px;
+    color: #737373;
+    padding: 25px 30px 20px;
+}
+.post .post-img-content
+{
+    height: 196px;
+    position: relative;
+}
+.post .post-img-content img
+{
+    position: absolute;
+}
+.post .post-title
+{
+    display: table-cell;
+    vertical-align: bottom;
+    z-index: 2;
+    position: relative;
+}
+.post .post-title b
+{
+    background-color: rgba(51, 51, 51, 0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #FFF;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+.well {
+    height: 280px;
+    padding: 0px 20px;
+    font-size: 18px;
+    background: -webkit-linear-gradient(white, #E6E6E6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #E6E6E6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #E6E6E6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #E6E6E6); /* Standard syntax (must be last) */
+}
+
+/* carousel edits */ 
 .carousel {
     width: 100%;
     max-height: 175px!important
