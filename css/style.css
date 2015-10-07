@@ -1,3 +1,5 @@
+
+/* carousel edits */ 
 .carousel {
     width: 100%;
     max-height: 175px!important
@@ -263,19 +265,24 @@ a.clickable:hover {
 }
 
 /* end side nav menu  */
-/* start blog header css */
+
+/* start content css */
+
+.well {
+    height: 280px;
+    padding: 0px 20px;
+    font-size: 18px;
+    background: -webkit-linear-gradient(#FFF, #E6E6E6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF, #E6E6E6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF, #E6E6E6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF, #E6E6E6); /* Standard syntax (must be last) */
+}
+
+
 .post {
     background-color: #FFF;
     overflow: hidden;
     box-shadow: 0 0 1px #CCC
-}
-
-.post img {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px)
 }
 
 .post .content {
@@ -305,7 +312,7 @@ a.clickable:hover {
 }
 
 .post .post-title b {
-    background-color: rgba(51,51,51,0.58);
+    background-color: rgba(65, 62, 62, 0.71);
     display: inline-block;
     margin-bottom: 5px;
     color: #FFF;
