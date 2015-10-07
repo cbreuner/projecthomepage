@@ -267,6 +267,10 @@ a.clickable:hover {
 /* end side nav menu  */
 
 /* start content css */
+.btnfix {
+	background-color:#5BC0DE;
+	color:#fff;
+}
 
 .well {
     height: 280px;
